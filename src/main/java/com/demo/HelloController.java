@@ -10,7 +10,7 @@ public class HelloController {
 	@GetMapping("/")
 	public ModelAndView hello(ModelAndView mv) {
 		mv.addObject("msg", "hello to spring mvc");
-		System.out.println("hello....");
+		System.out.println("hello...., working fine changed again");
 		mv.setViewName("hello");
 		return mv;
 	}
